@@ -1,0 +1,28 @@
+{
+  "name": "service-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.9",
+    "bluebird": "^3.7.2",
+    "winston": "^3.3.3",
+    "express-winston": "^4.1.0",
+    "mongodb-memory-server": "^6.9.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.4",
+    "sinon": "^10.0.0",
+    "sinon-chai": "^3.6.0"
+  }
+}
